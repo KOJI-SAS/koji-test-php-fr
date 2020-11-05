@@ -22,4 +22,6 @@ La seconde, une grille de 1000x1000 <div> de 1px par 1px où le nombre saisi pr�
 
 Il s’agit d’un exercice « créatif » le code produit n’a aucun usage réel. Il s’agit de voir quelle solution vous allez inventer et comment vous allez la mettre en place. Il vous faudra passer par plusieurs étapes, pensez « bitmap » (bien que ça ne soit pas la seule approche).
 
+"Prérendre" les nombres et les afficher n'est pas une solution valable, celle-ci ne permettant pas de determiner votre compétence.
+
 Temps estimé : Pour un.e dévelopeur.se de niveau confirmé ce projet se réalise en 1h30 environ. Si vous êtes junior, tentez de ne pas prendre plus de 2h30.
