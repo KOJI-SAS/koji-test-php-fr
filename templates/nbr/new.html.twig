@@ -1,0 +1,15 @@
+ {% extends "base.html.twig" %}
+
+ {% block body %}
+   <div class="container">
+      <div class="row m-5">
+         {{form_start(form)}}
+            <div class="form-group">
+               {{form_label(form.number)}}
+               {{form_widget(form.number, {'attr':{'class': 'form-control', 'placeholder': 'n°', 'require': 'require', 'min': '0', 'max': '99'}})}}            
+            </div>
+            <button type='submit' class='btn btn-success'>Valider</button>
+         {{form_end(form)}}
+      </div>
+   </div> 
+ {% endblock %}

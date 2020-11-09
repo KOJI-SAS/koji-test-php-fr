@@ -1,0 +1,31 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}
+
+    {{ nbr.number }}
+
+{% endblock %}
+
+{% block body %}
+
+<div class="container">
+    <div class="row m-5">
+        <h1>Voici le nombre enregistré!</h1>
+    </div> 
+    <canvas id="canvas" width="1000" height="1000" style="border:1px solid #c3c3c3;"></canvas>
+</div>
+<script>
+function draw(number_catched) 
+{
+  let canvas = document.getElementById('canvas').getContext('2d');
+  canvas.font = '250px serif';
+  canvas.strokeText(number_catched, 390, 450);
+}
+draw(   {{ nbr.number }} )
+</script>
+{% endblock %}
+
+
+
+
+
