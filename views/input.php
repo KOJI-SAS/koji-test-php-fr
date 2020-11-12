@@ -17,7 +17,7 @@ include_once('../php.php')
     <div class="container">
         <h1 class="text-center">Entrée des données chiffrées</h1>
         <form action="grid.php" method="POST">
-            <p><label>Nombre<input type="number" name="number" max="99"></label></p>
+            <p><label>Nombre<input type="text" style="text-align:center" type="number" NAME="number" pattern="^([0-9][0-9]?|)$" min="0" max="99" size="1" maxlength="2"></label></p>
             <p><input type="submit"></p>
         </form>
     </div>

@@ -3,7 +3,7 @@ $number = $_POST['number'];
 
 if(isset($number)){
     //verification si les données sont bonnes 
-if (!preg_match("#^[0-9][0-9])$#",$number))
+if (!preg_match("#^(0?[1-9]|[1-9][0-9])$#",$number))
 {
  echo "Veuillez entrer un nombre correct entre 0 et 99 !";
 }
