@@ -1,3 +1,7 @@
+<?
+include_once('../php.php')
+?>
+
 <!DOCTYPE html>
 <html>
 
@@ -9,11 +13,11 @@
 </head>
 
 <body>
-    
+
     <div class="container">
         <h1 class="text-center">Entrée des données chiffrées</h1>
         <form action="grid.php" method="POST">
-            <p><label>Nombre<input type="text" name="number"></label></p>
+            <p><label>Nombre<input type="number" name="number" max="99"></label></p>
             <p><input type="submit"></p>
         </form>
     </div>
