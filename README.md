@@ -16,7 +16,7 @@ Quand vous aurez terminé votre exercice, ouvrez une Pull Request avec votre cod
 Votre rendu doit comporter 2 pages :
 
 La première un simple champ input permettant de saisir n’importe quel nombre de 0 à 99 et un bouton de validation.
-La seconde, une grille de 1000x1000 <div> de 1px par 1px où le nombre saisi précédemment doit être affiché. 
+La seconde, une grille de 1000x1000 `<div>` de 1px par 1px où le nombre saisi précédemment doit être affiché. 
 
 3.	Aide et explications :  
 
