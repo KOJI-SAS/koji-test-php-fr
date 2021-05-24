@@ -1,27 +1,16 @@
-# Test Technique PHP
+# Test-koji-php karim \<divs> for one digital display
 
-L’objectif de ce test est de mesurer votre maîtrise du PHP, des bonnes pratiques mais aussi de votre créativité.
 
-1.	Format du rendu :  
+## Installation
 
-Quand vous aurez terminé votre exercice, ouvrez une Pull Request avec votre code et un fichier INSTRUCTIONS.md expliquant comment faire fonctionner votre code (composer install, artisan …). Vos instructions doivent être claires et permettre d’exécuter votre projet sans erreur ni warning.
+Installez PHP sur votre machine locale et assurez-vous qu’il fonctionne. [Aller ici](https://www.php.net/manual/en/install.php) pour plus d’explications, si nécessaire. Sous Windows, vous pouvez [installer Laragon](https://laragon.org/docs/install.html), beaucoup plus convivial .Clonez ce repo où vous voulez, disons dans un répertoire nommé 'my-PHP-test'.
 
--	Vous pouvez fournir un docker file, une Vagrant box ou simplement des instructions pour MAMP.
--	Votre code doit comporter des commentaires si nécessaire.
--	Vous êtes libres d’utiliser le Framework ou les librairies de votre choix, rappelez-vous qu’ici vous devez montrer vos compétences, pas l’efficacité d’une technologie, seul votre code et le rendu final serons pris en compte. Il est donc inutile d’entasser les librairies si *votre* code ne fait qu’une dizaine de lignes.
--	Imposez-vous une norme, pensez généricité, simplicité du code. Imaginez que ce code sera ensuite donné à d’autres développeurs qui devrons se débrouiller sans pouvoir vous parler.
+## Notice
 
-2.	L’exercice :  
+### 1
+Ouvrez un terminal et allez dans ce répertoire : CD my-PHP-test Vous pouvez utiliser les commandes Windows PowerShell, Git bash ou Windows. Une fois que votre terminal est situé dans mon-PHP-test, lancez un serveur PHP local, qui servira l’application dans votre localhost. Pour ce faire, tapez PHP -S localhost : 8000.Vous pouvez utiliser l’application en ouvrant votre navigateur Web et en allant sur http://localhost:8000.
 
-Votre rendu doit comporter 2 pages :
+### 2
+Entrez un nombre entre 0 et 99.Si vous entrez des lettres, le programme supposera que vous avez entré 0.Si le nombre entré est inférieur à 0, il faudra 0.Si il est supérieur à 99, le programme utilisera 99.Cliquez sur 'OK'Après un certain temps (be patiente), j'espère  que vous verrez l'affichage de votre numéro ! Vous pouvez cliquer sur le bouton 'RETOUR' afin de revivre cette expérience formidable :)
 
-La première un simple champ input permettant de saisir n’importe quel nombre de 0 à 99 et un bouton de validation.
-La seconde, une grille de 1000x1000 `<div>` de 1px par 1px où le nombre saisi précédemment doit être affiché. 
 
-3.	Aide et explications :  
-
-Il s’agit d’un exercice « créatif » le code produit n’a aucun usage réel. Il s’agit de voir quelle solution vous allez inventer et comment vous allez la mettre en place. Il vous faudra passer par plusieurs étapes, pensez « bitmap » (bien que ça ne soit pas la seule approche).
-
-"Prérendre" les nombres et les afficher n'est pas une solution valable, celle-ci ne permettant pas de determiner votre compétence.
-
-Temps estimé : Pour un.e dévelopeur.se de niveau confirmé ce projet se réalise en 1h30 environ. Si vous êtes junior, tentez de ne pas prendre plus de 2h30.
