@@ -1,0 +1,43 @@
+.error {
+    margin:0 0 20px 0;
+    padding:5px 8px;
+    width:100%;
+    background:pink;
+    color:red;
+    font-size:18px;
+    font-weight:600;
+    display:none;
+}
+
+.case {
+    margin:0;
+    padding:0;
+    width:1px;
+    height:1px;
+    /*border:1px solid #000;*/
+}
+
+.white {
+    background:#fff;
+}
+
+.black{
+    background:#000;
+}
+
+.new-column {
+    margin:0;
+    padding:0;
+    display:flex;
+    flex-direction:column;
+    justify-content:flex-start;
+    align-items:flex-start
+}
+
+.sample {
+    margin:0 auto;
+    padding:0;
+    width:1000px;
+    height:1000px;
+    border:1px solid #000;
+}
