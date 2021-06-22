@@ -1,3 +1,7 @@
+<<<<<<< HEAD
+# PixelGrid
+Read Font Pixel then draw them
+=======
 # Test Technique PHP
 
 L’objectif de ce test est de mesurer votre maîtrise du PHP, des bonnes pratiques mais aussi de votre créativité.
@@ -25,3 +29,4 @@ Il s’agit d’un exercice « créatif » le code produit n’a aucun usage ré
 "Prérendre" les nombres et les afficher n'est pas une solution valable, celle-ci ne permettant pas de determiner votre compétence.
 
 Temps estimé : Pour un.e dévelopeur.se de niveau confirmé ce projet se réalise en 1h30 environ. Si vous êtes junior, tentez de ne pas prendre plus de 2h30.
+>>>>>>> 93c727fd91c5d6370ddd75b1fbcf78a876d43408
